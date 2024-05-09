@@ -1,19 +1,19 @@
 #Usefull commands
 
 # Set environment and execution
-$ python3 -m venv /path/to/new/environment
-$ source /path/to/new/environment/bin/activate
+$ python3 -m venv /path/to/new/environment  <br />
+$ source /path/to/new/environment/bin/activate  <br />
 $ pip install django  
 $ pip install crispy-bootstrap5  
 $ pip install django-crispy-forms
 
 # Inside Project Folder
-$ python3 manage.py startapp inventory
-$ python3 manage.py migrate
-$ python3 manage.py createsuperuser
-$ python3 manage.py runserver 0.0.0.0:8000
+$ python3 manage.py startapp inventory  <br />
+$ python3 manage.py migrate  <br />
+$ python3 manage.py createsuperuser  <br />
+$ python3 manage.py runserver 0.0.0.0:8000 
 
-#db read  only
+#db read only  <br />
 sudo chown -R user:user inventory
 
 # Firewall 
